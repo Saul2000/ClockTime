@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1713970969592-d14b7ea5ebb8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    /* margin: auto; */
+}
+
+.widget {
+    width: 40%;
+    margin: 2em; /* 32px */
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.date {
+    font-family: Oswald;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem; /* 5px */
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 100%;
+}
+
+.clock {
+    font-family: Oswald;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.clock .seconds-box{
+    display: inline-block;
+}
+
+.clock .seconds,
+.clock .ampm {
+    font-size: 2rem;
+    display: block;
+}
